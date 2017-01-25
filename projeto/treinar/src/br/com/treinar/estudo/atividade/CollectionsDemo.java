@@ -18,7 +18,7 @@ public class CollectionsDemo {
 		}
 
 		// LinkedList
-		List l1 = new LinkedList();
+		List<String> l1 = new LinkedList<String>();
 		l1.add("Zara");
 		l1.add("Mahnaz");
 		l1.add("Ayan");
@@ -27,7 +27,7 @@ public class CollectionsDemo {
 		System.out.print("\t" + l1);
 
 		// HashSet
-		Set s1 = new HashSet();
+		Set<String> s1 = new HashSet<String>();
 		s1.add("Zara");
 		s1.add("Mahnaz");
 		s1.add("Ayan");
@@ -36,7 +36,7 @@ public class CollectionsDemo {
 		System.out.print("\t" + s1);
 
 		// HashMap
-		Map m1 = new HashMap();
+		Map<String, String> m1 = new HashMap<String, String>();
 		m1.put("Zara", "8");
 		m1.put("Mahnaz", "31");
 		m1.put("Ayan", "12");
