@@ -13,8 +13,9 @@ public class TesteException {
 			dia = leitor.nextInt();
 			leitor.close();
 			System.out.println("Você nasceu dia : " + dia);
-		} catch (Exception e) {
 			
+		} catch (Exception e) {
+			System.out.println("Erro desconhecido");
 		}
 	}
 
